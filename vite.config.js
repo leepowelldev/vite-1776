@@ -6,6 +6,7 @@ export default {
   },
   build: {
     manifest: true,
+    sourcemap: true,
     rollupOptions: {
       input: {
         main: resolve(__dirname, './src/main.js'),
